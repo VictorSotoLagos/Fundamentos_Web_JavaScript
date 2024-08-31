@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>Página de Perfil</title>
+  </head>
+  <body>
+    <main class="contenedor">
+      <nav class="menu">
+        <div class="menu hcol1">
+          <h2>Perfil</h2>
+        </div>
+        <div class="menu hcol2">
+          <ul>
+            <li>Inicio</li>
+          </ul>
+          <ul>
+            <li>Mi Perfil</li>
+          </ul>
+          <ul>
+            <li>Encontrar Conexiones</li>
+          </ul>
+          <button type="button" class="close-session">Cerrar Sesión</button>
+        </div>
+      </nav>
+      <div class="cuerpo">
+        <div class="cuerpo bcol1">
+          <article class="caja-profile">
+            <div class="barrasuperior"></div>
+            <div class="barrainferior">
+              <img
+                class="profile-img"
+                src="img/profile-img.jfif"
+                alt="This is a profile image"
+              />
+              <div class="profile-data">
+                <h1>Víctor Soto Lagos</h1>
+                <h3>Desarrollador FullStack JavaScript</h3>
+                <p>
+                  Desarrollador FullStack con un enfoque especializado en
+                  JavaScript y una pasión por crear experiencias digitales
+                  eficientes y accesibles. Mi objetivo es diseñar y desarrollar
+                  soluciones tecnológicas que no solo resuelvan problemas, sino
+                  que también impulsen la innovación y el crecimiento de los
+                  proyectos en los que participo.
+                </p>
+                <button
+                  type="button"
+                  class="button1"
+                  onclick="window.location.href='profile.html'"
+                >
+                  Editar Perfil
+                </button>
+              </div>
+            </div>
+          </article>
+          <article class="caja-profile-education">
+            <h3>Educación</h3>
+            <p>
+              Coding Dojo - Bootcamp de Desarrollo FullStack<br />
+              Agosto - Diciembre 2024<br />
+              Estudiando Desarrollo JavaScript
+            </p>
+          </article>
+        </div>
+        <div class="cuerpo bcol2">
+          <section class="caja-solicitudes-conexion">
+            <div id="solicitudestitulo">
+              <h3>Solicitudes de Conexión (2)</h3>
+            </div>
+            <div class="pendientes-conexion" id="pendiente1">
+              <img
+                class="img-pendientes"
+                src="img/011-cat.png"
+                alt="Juanito Fernández"
+              />
+              <p>Juanito Fernández</p>
+              <img
+                class="img-aprobaciones"
+                id="botonaceptar1"
+                src="img/aprobar.png"
+                alt="Aprobar"
+              />
+              <img
+                class="img-aprobaciones"
+                id="botonrechazar1"
+                src="img/denegar.png"
+                alt="Denegar"
+              />
+            </div>
+            <div class="pendientes-conexion" id="pendiente2">
+              <img
+                class="img-pendientes"
+                src="img/012-cat.png"
+                alt="Mati Fernández"
+              />
+              <p>Matías Fernández</p>
+              <img
+                class="img-aprobaciones"
+                id="botonaceptar2"
+                src="img/aprobar.png"
+                alt="Aprobar"
+              />
+              <img
+                class="img-aprobaciones"
+                id="botonrechazar2"
+                src="img/denegar.png"
+                alt="Denegar"
+              />
+            </div>
+          </section>
+          <section class="caja-tus-conexiones">
+            <div id="tusconexiones"><h3>Tus Conexiones (500)</h3></div>
+            <div class="listado-conexiones">
+              <img src="img/013-cat.png" alt="Viviana Pinto" />
+              <p>Viviana Pinto</p>
+            </div>
+            <div class="listado-conexiones">
+              <img src="img/021-cat.png" alt="Juan Bautista" />
+              <p>Juan Bautista</p>
+            </div>
+            <div class="listado-conexiones">
+              <img src="img/022-cat.png" alt="Osvaldo Ramas" />
+              <p>Osvaldo Ramas</p>
+            </div>
+            <div class="listado-conexiones">
+              <img src="img/031-cat.png" alt="Edgar Allan" />
+              <p>Edgar Allan Poe</p>
+            </div>
+            <div class="listado-conexiones">
+              <img src="img/032-cat.png" alt="Viviana Pinto" />
+              <p>Jean Claude Van Damme</p>
+            </div>
+            <div class="listado-conexiones">
+              <img src="img/033-cat.png" alt="Viviana Pinto" />
+              <p>Beatrix Kiddo</p>
+            </div>
+          </section>
+        </div>
+      </div>
+    </main>
+    <!--Este es el término del contenedor principal, div "contenedor"-->
+  </body>
+</html>
